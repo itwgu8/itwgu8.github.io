@@ -1,0 +1,38 @@
+{
+  "连击奖励": {
+    "en": "Perfect Hits",
+    "de": "Perfekte Treffer",
+    "es": "Golpes perfectos",
+    "fr": "Résultats parfaits",
+    "it": "Colpi perfetti",
+    "pt":"Visitas Perfeitas",
+    "ru": "Отличные попадания",
+    "tr": "Mükemmel Vuruşlar!",
+    "nl": "Perfect geraakt",
+    "pl": "Doskonałe trafienia"
+  },
+  "上次成绩": {
+    "en": "Last Score",
+    "de": "Letzte Punktzahl",
+    "es": "Última puntuación",
+    "fr": "Dernier score",
+    "it": "Ultimo punteggio",
+    "pt":"Última Pontuação",
+    "ru": "Последний результат",
+    "tr": "En Son Puan",
+    "nl": "Laatste score",
+    "pl": "Ostatni wynik"
+  },
+  "打破记录": {
+    "en": "New Record！",
+    "de": "Neuer Rekord!",
+    "es": "¡Nuevo récord!",
+    "fr": "Nouveau record !",
+    "it": "Nuovo Record!",
+    "pt":"Novo Recorde!",
+    "ru": "Новый рекорд!",
+    "tr": "Yeni Rekor",
+    "nl": "Nieuw record!",
+    "pl": "Nowy rekord!"
+  }
+}

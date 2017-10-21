@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<title>摘星星</title>
+<meta name="keywords" content="摘星星,摘星星html5游戏" />
+<meta name="description" content="摘星星html5游戏,摘星星手机在线游戏" />
+<link rel="apple-touch-icon" href="icon.png" />
+<link rel="shortcut icon" href="icon.png" />
+<link rel="icon" href="icon.png" />
+<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=device-dpi">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="full-screen" content="true">
+<meta name="screen-orientation" content="portrait">
+<meta name="x5-fullscreen" content="true">
+<meta name="360-fullscreen" content="true">
+<style>
+body {
+text-align: center;
+background: #000000;
+padding: 0;
+border: 0;
+margin: 0;
+}
+html {
+-ms-touch-action: none; /* Direct all pointer events to JavaScript code. */
+overflow: hidden;
+}
+div, canvas {
+display: block;
+margin: 0 auto;
+padding: 0;
+border: 0;
+}
+</style>
+<style>#sg-loadscrn{
+position:fixed; top:0;left:0;width:100%; height:100%; background-color:#fff; z-index:9999;
+}
+#sg-spinner{
+position: absolute; width: 150px; height: 50px; top:50%; left:50%; margin-top:-25px; margin-left:-75px;
+background-image: url('./assets/sg-loader.gif');
+}
+#sg-spinner.no-img{
+background: #ffffff;
+}
+#sg-loadtext{
+position:absolute;
+font-family: sans-serif;
+top:50%; left:50%;
+width: 250px;
+margin-left:-125px;
+margin-top:-125px;
+text-align:center;
+line-height:150%;
+font-size:16px;
+}</style>
+<script type="text/javascript">
+window.gameLangs = ['en', 'de', 'es', 'fr', 'it', 'pt', 'ru', 'tr', 'nl', 'pl'];
+window.gameJS = ['launcher/howler.js', 'launcher/howlerInterface.js','launcher/egret_require.js', 'launcher/egret_loader.js','launcher/game-min.js'];
+window.gameOnLoadScript = "_init()";
+</script><script type="text/javascript" src="./assets/softgames-1.1.js"></script><script type="text/javascript" src="./assets/sg.hooks.js"></script>
+</head>
+<body>
+<div style="position:relative;" id="gameDiv"></div>
+<script>var document_class = "Main";</script><script>
+function _init() {
+var support = [].map && document.createElement("canvas").getContext;
+if (support) {
+egret_h5.startGame();
+/* var _w = document.getElementById("gameDiv").style.width.substr(0, document.getElementById("gameDiv").style.width.length - 2);
+if (_w < document.body.clientWidth) {
+document.getElementById("gameDiv").style.marginLeft = (document.body.clientWidth - _w) / 2 + "px";
+}
+*/
+}
+else {
+alert("Egret 不支持您当前的浏览器")
+}
+}
+</script>
+<script src="js/stat.js"></script>
+</body>
+</html>
