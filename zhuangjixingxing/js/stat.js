@@ -54,7 +54,6 @@ function qike_h5_v1_init() {
 	}
 	var _0 = [];
 	_0.push('<div id="J-qike-h5-v1-logo"><img src="' + qike_h5_v1_logo + '" height="80"/></div>');
-	_0.push('<div id="J-qike-h5-v1-progress">.</div>');
 	_0.push('<div id="J-qike-h5-v1-adbox">');
 	_0.push('<a id="J-qike-h5-v1-close">×</a>');
 	_0.push('<div id="J-qike-h5-v1-addefault" style="display:none;"></div>');
