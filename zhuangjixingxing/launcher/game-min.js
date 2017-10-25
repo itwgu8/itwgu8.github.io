@@ -11487,7 +11487,7 @@ var initUI = function(d) {
         c.anchorX = 0.5;
         c.x = Fw.Data.StageWidth / 2;
         c.y = Fw.Data.StageHeight - c.height;
-        this.buttonSprite.addChild(c);
+//        this.buttonSprite.addChild(c);
         this.addChild(this.bg.bottom);
         this.addChild(this.bg.top);
         this.addChild(this.buttonSprite)
